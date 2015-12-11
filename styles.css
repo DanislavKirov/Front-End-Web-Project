@@ -1,0 +1,43 @@
+body {
+	background-color: #EAE5E5;
+}
+
+.page-wrap {
+	background-color: #5979a6;
+	max-width: 10000px;
+	width: 50%;
+	margin: 0 auto; 
+}
+
+.page-header {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	background-color: #354964;
+}
+
+.log-in {
+	float: left;
+	width: 50%;
+}
+
+.log-in-field {
+	margin-left: 30%;
+	margin-bottom: 30%;
+	margin-top: 30%;
+}
+
+.registration {
+	display: inline-block;
+	width: 50%;
+}
+
+.reg-field {
+	margin-left: 30%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
+
+.legend {
+	font-size: 150%;
+}
