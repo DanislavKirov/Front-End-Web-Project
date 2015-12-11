@@ -4,8 +4,8 @@ body {
 
 .page-wrap {
 	background-color: #5979a6;
-	max-width: 10000px;
-	width: 50%;
+	max-width: 1000px;
+	width: 80%;
 	margin: 0 auto; 
 }
 
@@ -22,9 +22,9 @@ body {
 }
 
 .log-in-field {
-	margin-left: 30%;
-	margin-bottom: 30%;
-	margin-top: 30%;
+	margin: 20%;
+	margin-bottom: 135px;
+	margin-top: 135px;
 }
 
 .registration {
@@ -33,9 +33,7 @@ body {
 }
 
 .reg-field {
-	margin-left: 30%;
-	margin-bottom: 10%;
-	margin-top: 10%;
+	margin: 20%;
 }
 
 .legend {
