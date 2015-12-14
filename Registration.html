@@ -6,8 +6,6 @@
     	<link rel="stylesheet" href="stylesheet.css">
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   	</head>
   	<body class="body">
     	<div class="container">
@@ -15,17 +13,17 @@
 		    	<form class="form-signin">
 		        	<h2 class="form-signin-heading">Регистрация</h2>
 		        	<label for="firstName" class="sr-only">First name</label>
-		        	<input type="text" class="form-control" placeholder="Име" autofocus required="">
+		        	<input id="first-name" type="text" class="form-control" placeholder="Име" autofocus required="">
 		        	<label for="lastName" class="sr-only">Last name</label>
-		        	<input type="text" class="form-control" placeholder="Фамилия" required="">
+		        	<input id="last-name" type="text" class="form-control" placeholder="Фамилия" required="">
 		        	<label for="facultyNumber" class="sr-only">Faculty Number</label>
-		        	<input type="text" class="form-control" placeholder="Факултетен номер" maxlength="5" required="">
+		        	<input id="fac-number"type="text" class="form-control" placeholder="Факултетен номер" maxlength="5" required="">
 		        	<label for="password" class="sr-only">Password</label>
-		        	<input type="password" class="form-control" placeholder="Парола" required="">
+		        	<input id="password" type="password" class="form-control" placeholder="Парола" required="">
 		        	<div class="form-group">
   						<label for="degreeProgramme"></label>
-  						<select class="form-control" id="sel1">
-  							<option disabled selected>Специалност</option>
+  						<select id="programme-select" class="form-control" id="sel1" required>
+  							<option value="">Специалност</option>
 	    					<option value="Informatics">Информатика</option>
 							<option value="Computer Science">Компютърни науки</option>
 							<option value="Software Engineering">Софтуерно инженерство</option>
@@ -38,8 +36,8 @@
 					</div>
 					<div class="form-group">
   						<label for="year"></label>
-  						<select class="form-control" id="sel1">
-  							<option disabled selected>Курс</option>
+  						<select id="year-select"  class="form-control" id="sel1" required>
+  							<option value="">Курс</option>
 							<option value="1">I</option>
 							<option value="2">II</option>
 							<option value="3">III</option>
@@ -47,9 +45,13 @@
 					 	</select>
 					</div>
 					<label for="register"></label>
-		        	<button class="btn btn-lg btn-primary btn-block" type="submit">Регистриране</button>
+		        	<button id="reg-button" class="btn btn-lg btn-primary btn-block" type="submit">Регистриране</button>
 	      		</form>
 	    	</div>
     	</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="js.js"></script>
   	</body>
 </html>
