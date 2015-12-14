@@ -9,3 +9,12 @@
 .btn-link {
 	margin-left: 72%;
 }
+
+.jumbotron {
+	text-align: center;
+	border-radius: 20px;
+}
+
+#info {
+	text-align: center;
+}
