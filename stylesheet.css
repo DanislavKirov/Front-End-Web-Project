@@ -19,3 +19,17 @@
     text-align: center;
     border-radius: 20px;
 }
+
+#add {
+	margin-top: 3%;
+
+}
+
+#elected-courses-txt {
+	margin-left: 3%;
+}
+
+#electives {
+	margin-left: 1%;
+	width: 57.4%;
+}

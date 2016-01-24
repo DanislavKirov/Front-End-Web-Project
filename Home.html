@@ -3,6 +3,7 @@
   	<head>
     	<meta charset="utf-8">
     	<title>Начало</title>
+
     	<link rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   	</head>
@@ -19,25 +20,23 @@
 		      		</ul>
 		      
 		      		<ul class="nav navbar-nav navbar-right">
-		        		<li><a href="Sign-In.html">Изход</a></li>
+		        		<li><a id="exit" href="Sign-In.html">Изход</a></li>
 		      		</ul>
 		    	</div>
 		  	</div>
 		</nav>
 
 		<div id="info" class="container-fluid">
-			<h1>Добре дошли,</h1>
-			<h2 id="home-name">Георги Иванов</h2>
-
+			<h1 class="welcome">Добре дошли,</h1>
+		
 			<div class="col-md-offset-3 col-md-6">
 				<p id="home-fac-number-label">Факултетен номер: </p>
-				<p id="home-fac-number">45051</p>
 				<p id="home-degree-label">Специалност: </p>
-				<p id="home-degree">Информатика</p>
 				<p id="home-year-label">Курс: </p>
-				<p id="home-year">II</p>
 			</div>
 		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="student.js"></script>
 		<script src="home.js"></script>
   	</body>
 </html>

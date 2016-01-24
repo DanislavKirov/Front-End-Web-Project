@@ -1,25 +1,20 @@
 window.onload = function () {
 	'use strict';
+
+	var student = getFromLocalStorage();
 	
-	var arrAcounts = [];
+	$("<h2>" + student.firstName + " " + student.lastName + "</h2>")
+	.insertAfter(".welcome");
+	$("<p>" + student.facNumber + "</p>")
+	.insertAfter("#home-fac-number-label");
+	$("<p>" + student.programme + "</p>")
+	.insertAfter("#home-degree-label");
+	$("<p>" + student.year + "</p>")
+	.insertAfter("#home-year-label");
 	
-	$.get("http://localhost:3000/posts//test.html", function( data ) {
-		arrAcounts = JSON.parse(data);
-		alert( "Load was performed." );
+	$("#exit").click( function() {
+		removeStorage();
 	});
-	
-	$("#log-in-button").click( function () {
-		var facNumber = $("fac-number").val();
-		var password = $("password").val();
-		
-		if(isFacNumberCorrect(facNumber) && isPasswordCorrect(password))
-		{
-			for(int i = 0; i < arrAcounts.length; ++i)
-			{
-				if(arrAcounts[i])
-					// to be continued...
-			}
-		}
-	});
-	
 }
+
+

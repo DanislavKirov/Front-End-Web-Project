@@ -4,6 +4,30 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "{\"first-name\":\"asdasdasd\",\"last-name\":\"qwesfasfsf\",\"fac-number\":\"21323\",\"password\":\"12323213\",\"programme-select\":\"Информатика\",\"year-select\":\"I\"}": "",
+      "id": 2
+    },
+    {
+      "{\"firstName\":\"asdasdasd\",\"lastName\":\"qwesfasfsf\",\"facNumber\":\"21323\",\"password\":\"124214124\",\"programme\":\"Информатика\",\"year\":\"I\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "id": 3
+    },
+    {
+      "{\"firstName\":\"nikolay\",\"lastName\":\"babulkov\",\"facNumber\":\"45088\",\"password\":\"123456\",\"programme\":\"Информатика\",\"year\":\"II\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "id": 4
+    },
+    {
+      "{\"firstName\":\"nikolay\",\"lastName\":\"babulkov\",\"facNumber\":\"45088\",\"password\":\"123123123\",\"programme\":\"Информатика\",\"year\":\"II\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "id": 5
+    },
+    {
+      "{\"firstName\":\"nikolay\",\"lastName\":\"babulkov\",\"facNumber\":\"45088\",\"password\":\"123123123\",\"programme\":\"Информатика\",\"year\":\"II\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "id": 6
+    },
+    {
+      "{\"firstName\":\"nikolay\",\"lastName\":\"babulkov\",\"facNumber\":\"45088\",\"password\":\"21412412\",\"programme\":\"Информатика\",\"year\":\"II\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "id": 7
     }
   ]
 }
