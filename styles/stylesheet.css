@@ -10,7 +10,7 @@
 	margin-left: 72%;
 }
 
-#info {
+#home {
 	max-width: 860px;
     margin: 12px auto;
     padding: 12px;
@@ -20,9 +20,8 @@
     border-radius: 20px;
 }
 
-#add {
+#show {
 	margin-top: 3%;
-
 }
 
 #elected-courses-txt {
@@ -32,4 +31,20 @@
 #electives {
 	margin-left: 1%;
 	width: 57.4%;
+}
+
+#select-elective {
+	height: 131px;
+}
+
+#courses-current {
+	font-weight: bold;
+}
+
+#electives-current {
+	font-weight: bold;
+}
+
+#info {
+	color: black;
 }

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Моите Курсове</title>
-    	<link rel="stylesheet" href="stylesheet.css">
+    	<link rel="stylesheet" href="styles\stylesheet.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	</head>
 	<body class="body">
@@ -14,75 +14,31 @@
 		    	</div>
 		    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      		<ul class="nav navbar-nav">
-		        		<li><a href="#">Моите курсове</a></li>
+		        		<li><a id="courses-current" href="#">Текущи дисциплини</a></li>
 		        		<li><a href="Electives.html">Записване за избираеми дисциплини</a></li>
 		      		</ul>
-		      
 		      		<ul class="nav navbar-nav navbar-right">
 		        		<li><a href="Sign-In.html">Изход</a></li>
 		      		</ul>
 		    	</div>
 		  	</div>
 		</nav>
-
-		<div class="table-responsive col-md-4">
+		<div class="table-responsive col-md-10 col-md-offset-1">
 			<div class="panel panel-default">
-			  	<div class="panel-heading">Текущи курсове</div>	
-
-				<table class="table table-striped">
-				    <tbody>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    </tbody>
-				</table>
+	
+					<table class="table table-striped">
+						<tr>
+							<th>Дисциплина</th>
+							<th>Лектор</th>
+							<th>Курс</th>
+						</tr>
+						<tbody id="table-body">
+							
+						</tbody>
+					</table>
 			</div>
 		</div>
-
-		<div class="table-responsive col-md-4">
-			<div class="panel panel-default">
-			  	<div class="panel-heading">Взети изпити</div>	
-
-				<table class="table table-striped">
-				    <tbody>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    </tbody>
-				</table>
-			</div>
-		</div>
-
-		<div class="table-responsive col-md-4">
-			<div class="panel panel-default">
-			  	<div class="panel-heading">Невзети изпити</div>	
-
-				<table class="table table-striped">
-				    <tbody>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    	<tr>
-				    		<td>...</td>
-				    	</tr>
-				    </tbody>
-				</table>
-			</div>
-		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="scrips\subjects.js"></script>
 	</body>
 </html>

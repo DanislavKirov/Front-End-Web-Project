@@ -1,7 +1,8 @@
 var isNameCorrect = function(str) {
 	var size = str.length;
 	var regEx = /[A-Z]/gi;
-	return size >= 3 && size == str.match(regEx).length;
+	var match = str.match(regEx);
+	return size >= 2 && match != null && size == match.length;
 }
 
 var isFacNumberCorrect = function(str) {

@@ -25,8 +25,9 @@ window.onload = function () {
 				}
 			}
 		}
-		$("<div class=\"well well-sm\">Wrong faculty number or password!</div>")
-			.insertBefore("#sign-in-button");
+		alert("Грешен факултетен номер или парола!");
+		//$("<div class=\"well well-sm\">Wrong faculty number or password!</div>")
+		//	.insertBefore("#sign-in-button");
 	})
 	);
 }

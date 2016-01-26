@@ -1,75 +1,58 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "firstName": "affsafasf",
+      "lastName": "asfasgasgag",
+      "facNumber": 42512,
+      "password": 125215125,
+      "programme": "Софтуерно инженерство",
+      "year": 2,
+      "id": 1
     },
     {
-      "{\"first-name\":\"asdasdasd\",\"last-name\":\"qwesfasfsf\",\"fac-number\":\"21323\",\"password\":\"12323213\",\"programme-select\":\"Информатика\",\"year-select\":\"I\"}": "",
+      "firstName": "WASFADF",
+      "lastName": "DSFSDFSD",
+      "facNumber": 12412,
+      "password": 214124124,
+      "programme": "Софтуерно инженерство",
+      "year": 1,
       "id": 2
     },
     {
-      "{\"firstName\":\"asdasdasd\",\"lastName\":\"qwesfasfsf\",\"facNumber\":\"21323\",\"password\":\"124214124\",\"programme\":\"Информатика\",\"year\":\"I\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "firstName": "asfsfasf",
+      "lastName": "asfasfasfa",
+      "facNumber": 14241,
+      "password": 215215125,
+      "programme": "Компютърни науки",
+      "year": 3,
       "id": 3
     },
     {
-      "{\"firstName\":\"nikolay\",\"lastName\":\"babulkov\",\"facNumber\":\"45088\",\"password\":\"123456\",\"programme\":\"Информатика\",\"year\":\"II\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "firstName": "afsafasf",
+      "lastName": "asfasfasfas",
+      "facNumber": 21421,
+      "password": 124124124,
+      "programme": "Компютърни науки",
+      "year": 2,
       "id": 4
     },
     {
-      "{\"firstName\":\"nikolay\",\"lastName\":\"babulkov\",\"facNumber\":\"45088\",\"password\":\"123123123\",\"programme\":\"Информатика\",\"year\":\"II\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "firstName": "adfafas",
+      "lastName": "asfasfasfa",
+      "facNumber": 21419,
+      "password": 124214124,
+      "programme": "Софтуерно инженерство",
+      "year": 2,
       "id": 5
     },
     {
-      "{\"firstName\":\"nikolay\",\"lastName\":\"babulkov\",\"facNumber\":\"45088\",\"password\":\"123123123\",\"programme\":\"Информатика\",\"year\":\"II\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
+      "firstName": "gosho",
+      "lastName": "egey",
+      "facNumber": 66666,
+      "password": 12342515,
+      "programme": "Софтуерно инженерство",
+      "year": 1,
       "id": 6
-    },
-    {
-      "{\"firstName\":\"nikolay\",\"lastName\":\"babulkov\",\"facNumber\":\"45088\",\"password\":\"21412412\",\"programme\":\"Информатика\",\"year\":\"II\",\"passed\":[],\"current\":[],\"relegated\":[]}": "",
-      "id": 7
-    }
-  ],
-  "electives": [
-    {
-      "name": "Бързи алгоритми върху структури от данни",
-      "lector": "гл. ас. Петър Митанкин"
-    },
-    {
-      "name": "Разработка на Front-End Web",
-      "lector": "д-р Ст. Велев, д-р П. Казаков"
-    },
-    {
-      "name": "Съвременни Java технологии",
-      "lector": "д-р Ст. Велев, д-р П. Казаков"
-    },
-    {
-      "name": "Големи масиви от данни",
-      "lector": "доц. А. Семерджиев, доц. К.Георгиев"
-    },
-    {
-      "name": "Управление на паметта",
-      "lector": "доц. А. Семерджиев"
-    },
-    {
-      "name": "Архитектурно моделиране и симулация на информационни системи",
-      "lector": "доц. А. Семерджиев"
-    },
-    {
-      "name": "Бази от данни",
-      "lector": "гл.ас. М. Филипова, Св. Илков"
-    },
-    {
-      "name": "Модели на смъртност",
-      "lector": "доц. В. Стоименова"
-    },
-    {
-      "name": "Високо производително програмиране",
-      "lector": "Благовест Тасков, инф. Димитър Трендафилов"
-    },
-    {
-      "name": "Математически модели и изчислителен експеримент",
-      "lector": "проф. С. Димова, ас. Т. Иванов"
     }
   ],
   "mandatory": [
@@ -81,7 +64,7 @@
           "lector": "доц. д-р Ася Русева"
         },
         {
-          "name": "Диференциално и интегрално смятане I"
+          "name": "Диференциално и интегрално смятане I",
           "lector": "доц. д-р Първан Първанов"
         },
         {

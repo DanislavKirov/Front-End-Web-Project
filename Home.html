@@ -4,7 +4,7 @@
     	<meta charset="utf-8">
     	<title>Начало</title>
 
-    	<link rel="stylesheet" href="stylesheet.css">
+    	<link rel="stylesheet" href="styles\stylesheet.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   	</head>
   	<body class="body">
@@ -15,7 +15,7 @@
 		    	</div>
 		    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      		<ul class="nav navbar-nav">
-		        		<li><a href="My-Subjects.html">Моите курсове</a></li>
+		        		<li><a href="Subjects.html">Текущи дисциплини</a></li>
 		        		<li><a href="Electives.html">Записване за избираеми дисциплини</a></li>
 		      		</ul>
 		      
@@ -26,17 +26,19 @@
 		  	</div>
 		</nav>
 
-		<div id="info" class="container-fluid">
+		<div id="home" class="container-fluid">
 			<h1 class="welcome">Добре дошли,</h1>
 		
-			<div class="col-md-offset-3 col-md-6">
-				<p id="home-fac-number-label">Факултетен номер: </p>
-				<p id="home-degree-label">Специалност: </p>
-				<p id="home-year-label">Курс: </p>
+			<div id="info" class="col-md-offset-1 col-md-10">
+				<div id="well">
+					<p id="home-fac-number-label">Факултетен номер: </p>
+					<p id="home-degree-label">Специалност: </p>
+					<p id="home-year-label">Курс: </p>
+				</div>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="student.js"></script>
-		<script src="home.js"></script>
+		<script src="scrips\student.js"></script>
+		<script src="scrips\home.js"></script>
   	</body>
 </html>
