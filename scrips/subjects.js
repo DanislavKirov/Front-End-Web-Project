@@ -1,6 +1,6 @@
-window.onload = function () {
-	'use strict';
+'use strict';
 
+window.onload = function () {
 	var year = localStorage.year;
 	var mandatoryExams = [];
 	$.get("http://localhost:3000/mandatory/", function( data ) {
@@ -12,5 +12,9 @@ window.onload = function () {
 			$("#table-body")
 			.append("<tr><td>" + exam.name + "</td><td>" + exam.lector + "</td><td>" + year + "</td></tr>");
 		}
+	});
+	
+	$("#exit").click( function() {
+		removeStorage();
 	});
 }

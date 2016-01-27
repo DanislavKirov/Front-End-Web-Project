@@ -28,9 +28,8 @@
 	margin-left: 3%;
 }
 
-#electives {
-	margin-left: 1%;
-	width: 57.4%;
+#navbar-collapse {
+	display: inline-block;
 }
 
 #select-elective {

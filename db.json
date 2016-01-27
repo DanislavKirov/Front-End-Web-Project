@@ -1,58 +1,13 @@
 {
   "posts": [
     {
-      "firstName": "affsafasf",
-      "lastName": "asfasgasgag",
-      "facNumber": 42512,
-      "password": 125215125,
-      "programme": "Софтуерно инженерство",
+      "firstName": "Nikolay",
+      "lastName": "Babulkov",
+      "facNumber": 45088,
+      "password": 123456,
+      "programme": "Информатика",
       "year": 2,
       "id": 1
-    },
-    {
-      "firstName": "WASFADF",
-      "lastName": "DSFSDFSD",
-      "facNumber": 12412,
-      "password": 214124124,
-      "programme": "Софтуерно инженерство",
-      "year": 1,
-      "id": 2
-    },
-    {
-      "firstName": "asfsfasf",
-      "lastName": "asfasfasfa",
-      "facNumber": 14241,
-      "password": 215215125,
-      "programme": "Компютърни науки",
-      "year": 3,
-      "id": 3
-    },
-    {
-      "firstName": "afsafasf",
-      "lastName": "asfasfasfas",
-      "facNumber": 21421,
-      "password": 124124124,
-      "programme": "Компютърни науки",
-      "year": 2,
-      "id": 4
-    },
-    {
-      "firstName": "adfafas",
-      "lastName": "asfasfasfa",
-      "facNumber": 21419,
-      "password": 124214124,
-      "programme": "Софтуерно инженерство",
-      "year": 2,
-      "id": 5
-    },
-    {
-      "firstName": "gosho",
-      "lastName": "egey",
-      "facNumber": 66666,
-      "password": 12342515,
-      "programme": "Софтуерно инженерство",
-      "year": 1,
-      "id": 6
     }
   ],
   "mandatory": [
@@ -196,5 +151,16 @@
         }
       ]
     }
+  ],
+  "electives": [
+    "Разработка на Front-End Web",
+    "Основи на компютърните мрежи",
+    "Съвременни Java технологии",
+    "JavaScript за напреднали",
+    "Теория на игрите",
+    "Дискретна оптимизация",
+    "Изкуствен интелект",
+    "Бързи алгоритми върху структури от данни",
+    "Аналитична механика"
   ]
 }

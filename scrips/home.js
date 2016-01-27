@@ -1,6 +1,6 @@
-window.onload = function () {
-	'use strict';
+'use strict';
 
+window.onload = function () {
 	var student = getFromLocalStorage();
 	
 	$("<h2>" + student.firstName + " " + student.lastName + "</h2>")
@@ -16,5 +16,3 @@ window.onload = function () {
 		removeStorage();
 	});
 }
-
-

@@ -1,6 +1,6 @@
+'use strict';
+
 window.onload = function () {
-	'use strict';
-	
 	var arrAccounts = [];
 	$.get("http://localhost:3000/posts/", function( data ) {
 		arrAccounts = data;
@@ -28,7 +28,6 @@ window.onload = function () {
 				var regStudent = new Student(firstName, lastName, facNumber,
 									 password, programmeSelect, yearSelect);
 									 
-				console.log(regStudent);
 				$.post("http://localhost:3000/posts/", regStudent, "json")
 				.done( function () {
 					toLocalStorage(regStudent);
@@ -36,10 +35,10 @@ window.onload = function () {
 					return false;
 				});
 			} else {
-				alert("Съществуващ факултетен номер WEEE!");
+				alert("Съществуващ факултетен номер!");
 			}
 		} else {
-			alert("Грешно въведени данни вееее!");
+			alert("Грешно въведени данни!");
 		}
 	});
 };

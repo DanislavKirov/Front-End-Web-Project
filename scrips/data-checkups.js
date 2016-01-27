@@ -1,3 +1,5 @@
+'use strict';
+
 var isNameCorrect = function(str) {
 	var size = str.length;
 	var regEx = /[A-Z]/gi;

@@ -1,3 +1,5 @@
+'use strict';
+
 function Student(firstName, lastName, facNumber, 
 				password, programme, year) {
 	this.firstName = firstName;
@@ -7,10 +9,6 @@ function Student(firstName, lastName, facNumber,
 	this.programme = programme;
 	this.year = year;
 }
-
-/*Student.prototype.addCurrent = function (exam) {
-	this.current.push(exam);
-}*/
 
 var toLocalStorage = function (obj) {
 	localStorage.firstName = obj.firstName;
