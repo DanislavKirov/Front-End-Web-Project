@@ -1,1 +1,1 @@
-# Front-End-Web-Project
+Information System Faculty of Mathematics and Informatics - ISFMI
